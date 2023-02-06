@@ -1,0 +1,55 @@
+.wd-color-white-title {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0px;
+}
+.wd-padding-header {
+    padding: 12px 0px 12px 16px;
+}
+.wd-avatar-image {
+    border-radius: 25px;
+    height: 48px;
+    width: 48px;
+}
+.wd-author-handle-name {
+    padding-left: 12px;
+}
+.wd-author-handle-font-size {
+    font-size: 15px;
+}
+.wd-p-text {
+    font-size: 15px;
+    color: #ffffff;
+    max-width: 506px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+}
+.wd-article-img {
+    height: 264px;
+    width: 504px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    border-radius: 25px;
+}
+.wd-text-group {
+    padding: 12px;
+    max-width: 506px;
+}
+
+.wd-text-group-border {
+    border-radius: 25px;
+}
+
+.wd-tuit-icon {
+    height: 20px;
+    width: 20px;
+}
+.wd-icon-margin {
+    margin: 0px 0px 0px 12px;
+}
+.wd-icon-padding {
+    margin-right: 50px;
+}
+.wd-heart-text {
+    color: #ff2828;
+}

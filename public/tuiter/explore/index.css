@@ -1,0 +1,62 @@
+.wd-fg-color-black {
+  color: black;
+}
+.wd-fg-color-white {
+  color: white;
+}
+.wd-fg-color-blue {
+  color: #7070ff;
+}
+.wd-fg-color-red {
+  color: #ff7070;
+}
+.wd-fg-color-green {
+  color: green;
+}
+
+.wd-bg-color-dark-grey {
+  background-color: #6d6d6b;
+}
+.wd-rounded-corners-all-around {
+  border-radius: 25px;
+}
+
+.wd-search-bar-size {
+  width: 800px;
+}
+
+.wd-icon-size-gear {
+  width: 20px;
+  height: 20px;
+  padding-left: 12px;
+}
+
+.wd-link {
+  font-size: 15px;
+  padding: 16px;
+}
+.wd-for-you-link {
+  color: rgb(29, 161, 242);
+  border-width: 0px 0px 2px 0px;
+  border-color: rgb(29, 161, 242);
+  border-style: solid;
+}
+
+.ul-remove-styling {
+  list-style-type: none;
+  padding: 0px;
+}
+.wd-li-margin {
+    padding-bottom: 100px;
+}
+
+.wd-tweet-white {
+  color: #ffffff;
+  margin: 0px;
+}
+.wd-tweet-image-size {
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+  margin-left: 16px;
+}

@@ -1,0 +1,39 @@
+.wd-16px-indent {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.wd-border-grey {
+  border-color: rgb(47, 51, 54);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.wd-bg-color-black {
+  background-color: #000000;
+}
+
+.wd-tweet-p {
+  size: 13px;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.wd-tweet-grey {
+  color: rgb(110, 118, 125);
+}
+
+.wd-tweet-image-post-title {
+  font-size: 12px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.wd-float-left {
+  float: left;
+}
+.wd-float-right {
+  float: right;
+}
+.wd-float-done {
+  clear: both;
+}
