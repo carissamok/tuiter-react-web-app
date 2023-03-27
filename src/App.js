@@ -8,11 +8,13 @@ import { Routes, Route } from "react-router";
 function App() {
   return (
     <BrowserRouter>
-      <div classname="container">
+      <div className="container">
         <Routes>
-          <Route index element={<Labs />} />
+          <Route path="/*" element={<Labs />} />
           <Route path="/hello" element={<HelloWorld />} />
           <Route path="/tuiter" element={<Tuiter />} />
+          <Route path="/tuiter/home" element={<Tuiter active={"home"}/>} />
+          <Route path="/tuiter/explore" element={<Tuiter active={"explore"}/>} />
         </Routes>
       </div>
     </BrowserRouter>

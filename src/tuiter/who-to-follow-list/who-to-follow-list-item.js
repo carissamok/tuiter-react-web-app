@@ -7,7 +7,7 @@ const WhoToFollowListItem = ({who}) => {
       <div className="row">
         <div
           className="col-2 align-middle"
-          style={{"padding-left": "8px", "padding-right": "0px"}}
+          style={{"paddingLeft": "8px", "paddingRight": "0px"}}
         >
           <img
             className="rounded-circle follow-propic"
@@ -17,7 +17,7 @@ const WhoToFollowListItem = ({who}) => {
         </div>
         <div className="col-lg-7" style={{"padding": "0px"}}>
           <div className="fw-bold">{who.userName}
-          <i class="bi bi-check-circle-fill" style={{"padding-left": "5px"}}></i>
+          <i className="bi bi-check-circle-fill" style={{"paddingLeft": "5px"}}></i>
           </div>
           <div>@{who.handle}</div>
         </div>
