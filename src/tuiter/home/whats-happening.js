@@ -11,11 +11,11 @@ const WhatsHappening = () => {
     };
     dispatch(createTuit(newTuit));
   };
-  
+
   return (
     <div className="row">
       <div className="col-auto">
-        <img src="/tuiter/images/nasa.png" width={60} />
+        <img alt="" src="/tuiter/images/nasa.png" width={60} />
       </div>
       <div className="col-10">
         <textarea
