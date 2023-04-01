@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { useDispatch } from "react-redux";
 import { updateTuitThunk } from "../../services/tuits-thunks";
 
 const TuitStats = ({ tuit }) => {
-  const [tuitState, setTuitState] = useState(tuit);
+  // const [tuitState, setTuitState] = useState(tuit);
   const dispatch = useDispatch();
 
   // const likeTuitClickHandler = (tuit) => {
@@ -35,14 +35,14 @@ const TuitStats = ({ tuit }) => {
           className="bi bi-chat"
           style={{ paddingLeft: "10px", paddingRight: "4px" }}
         ></i>
-        {tuitState.replies}
+        {tuit.replies}
       </div>
       <div className="col">
         <i
           className="bi bi-arrow-repeat"
           style={{ paddingLeft: "10px", paddingRight: "4px" }}
         ></i>
-        {tuitState.retuits}
+        {tuit.retuits}
       </div>
       <div className="col">
         {tuit.liked && (
