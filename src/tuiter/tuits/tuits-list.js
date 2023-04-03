@@ -5,7 +5,6 @@ import { findTuitsThunk } from "../../services/tuits-thunks";
 
 const TuitsList = () => {
   const { tuits, loading } = useSelector((state) => state.tuitsData);
-  console.log("tuitsList", tuits)
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(findTuitsThunk());
